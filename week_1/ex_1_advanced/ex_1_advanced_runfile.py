@@ -46,3 +46,4 @@ if __name__ == "__main__":
     refs_file_2 = read_references("references_2.txt")
     ref_status = compare_references(refs_file_1, refs_file_2)
     write_status(ref_status, "ex_1_advanced_submit.txt")
+
